@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Event - Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+</head>
+<body>
+   <!-- Large Screen Navigation Bar -->
+   <nav>
+    <div class="logo">
+      Logo
+    </div>
+    <div class="links">
+      <a class="nav-anchor" href="#home"><p>Home</p></a>
+      <a class="nav-anchor" href="#about"><p>About</p></a>
+      <a class="nav-anchor" href="#contact"><p>Contact Us</p></a>
+      <strong id="mobile-menu-btn">Menu</strong>
+    </div>
+  </nav>
+  <!-- Small Screen Navigation Bar -->
+  <div class="mobile-menu">
+    <a class="nav-anchor" href="#home"><p>Home</p></a>
+    <a class="nav-anchor" href="#about"><p>About</p></a>
+    <a class="nav-anchor" href="#contact"><p>Contact Us</p></a>
+  </div> 
+
+  <!--Home section -->
+        <!--form-->
+      <div id="home" class="home-container">
+        <div class="img-main">
+            <img class="hero-img"src="../Christmas_event/images/santa-claus.png"/>
+        </div>
+        <p class="home-text">Christmas Event for the Whole Family</p>
+        <p class="add-text">Get unforgettable impressions from this year’s
+            Christmas Event at  Our Center.</p>
+        <a href="#register-form"><button  class="button-register">Register Now</button></a>
+      </div>
+      <!---->
+
+  <!--About Section-->
+  <div id="about" class="about-container">
+
+    <div class="about-box1">
+     <p class="about-text header">About Our Event</p>
+     <div class="loc-date">
+        <h3 class="h3"><i class="fa fa-location-arrow"></i> Location: Stuttgart, Germany</h3>
+        <br><p class="h4">Markt Platz, Sindelfingen - 71063</p>
+        <h3 class="h3"><i class="fa fa-calendar"></i> Date: 24-26 December 2020</h3>
+        <br><p class="h4">December 24-26, open from 9:00 am to 9:00 pm</p>
+     </div>
+     
+    <div class="about-img">
+    <img class="about-imgage1"src="../Christmas_event/images/tree.jpg">
+    </div>
+    </div>
+  </div>
+  <!--form-->
+  <div id="register-form"  class="form">
+    <h2 class="header book-tickets">Book Your Tickets</h2>
+    <form id="basic-form" action="" method="post">
+      <p>
+        <label class="h4" for="name">Name <span>(required, at least 3 characters)</span></label>
+        <input id="name" name="name">
+      </p>
+    <p>
+        <label class="h4" for="age">Your Age <span>(minimum 18)</span></label>
+        <input id="age" name="age">
+      </p>
+      <p>
+          <label class="h4" for="phone">Phone Number <span>(required)</span></label>
+          <input id="phone" name="phone">
+        </p>
+      <p>
+        <label class="h4" for="email">E-Mail <span>(required)</span></label>
+        <input id="email" name="email">
+      </p>
+      <p>
+        <input class="submit" type="submit" value="Submit">
+      </p>
+  </form> 
+  </div>
+  
+<!--footer-->
+<footer id="contact" class="footer">
+  <p class="copyright-text"> <i class="fa fa-phone"></i> Contact Number: 151-240-11171</p>
+  <p class="copyright-text"><i class="fa fa-envelope"> </i> Email:chistmas_events@gmail.com</p>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
